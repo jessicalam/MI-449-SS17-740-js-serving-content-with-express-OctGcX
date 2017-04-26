@@ -1,0 +1,39 @@
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+img {
+  height: 50%;
+}
+
+#footer {
+  background-color: rgb(6, 23, 107);
+  color: white;
+  font-weight: bold;
+  height: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(6, 23, 107);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(5, 15, 64);
+}

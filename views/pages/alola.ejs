@@ -1,0 +1,15 @@
+<html>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <% include ../partials/header %>
+
+  <title>Alolian Pokemon</title>
+    <pokemon>
+      <h1><%= pageinfo.title %></h1>
+      <h3>Type: <%= pageinfo.type %></h3>
+      <img src=<%= pageinfo.img %>>
+      <p>More Info: <a href=<%= pageinfo.bulbapedia %> target="_blank"><%= pageinfo.bulbapedia %></a></p>
+    </pokemon>
+
+    <% include ../partials/footer %>
+</html>
